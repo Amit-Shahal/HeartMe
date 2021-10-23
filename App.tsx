@@ -1,20 +1,7 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import AmIOk from "./pages/AmIOk";
+import SubmitBloodTestResults from "./pages/SubmitBloodTestResults";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <AmIOk />
-    </View>
-  );
+  return <SubmitBloodTestResults />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
